@@ -18,6 +18,9 @@ file_export_version=3.0
 # Don't prompt to confirm exit
 /instance/org.eclipse.ui.ide/EXIT_PROMPT_ON_CLOSE_LAST_WINDOW=false
 
+# Switch to debug view without prompting
+/instance/org.eclipse.debug.ui/org.eclipse.debug.ui.switch_perspective_on_suspend=always
+
 # Use a better font
 /instance/org.eclipse.jdt.ui/org.eclipse.jface.textfont=1|Source Code Pro|9.75|0|WINDOWS|1|-13|0|0|0|400|0|0|0|0|10|2|1|49|Source Code Pro;
 /instance/org.eclipse.ui.workbench/org.eclipse.jface.textfont=1|Source Code Pro|9.75|0|WINDOWS|1|-13|0|0|0|400|0|0|0|0|10|2|1|49|Source Code Pro;
