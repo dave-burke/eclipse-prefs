@@ -28,6 +28,15 @@ file_export_version=3.0
 /instance/org.eclipse.jdt.ui/org.eclipse.jface.textfont=1|Source Code Pro|9.75|0|WINDOWS|1|-13|0|0|0|400|0|0|0|0|10|2|1|49|Source Code Pro;
 /instance/org.eclipse.ui.workbench/org.eclipse.jface.textfont=1|Source Code Pro|9.75|0|WINDOWS|1|-13|0|0|0|400|0|0|0|0|10|2|1|49|Source Code Pro;
 
+# Save actions
+/instance/org.eclipse.jdt.ui/editor_save_participant_org.eclipse.jdt.ui.postsavelistener.cleanup=true
+/instance/org.eclipse.jdt.ui/sp_cleanup.correct_indentation=true
+/instance/org.eclipse.jdt.ui/sp_cleanup.format_source_code=true
+/instance/org.eclipse.jdt.ui/sp_cleanup.format_source_code_changes_only=true
+/instance/org.eclipse.jdt.ui/sp_cleanup.on_save_use_additional_actions=true
+/instance/org.eclipse.jdt.ui/sp_cleanup.remove_trailing_whitespaces=true
+/instance/org.eclipse.jdt.ui/sp_cleanup.remove_unused_imports=true
+
 # Set console to wrap at 165 characters (screen width)
 /instance/org.eclipse.debug.ui/Console.width=165
 /instance/org.eclipse.debug.ui/Console.wrap=true
