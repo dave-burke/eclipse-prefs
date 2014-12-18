@@ -13,6 +13,9 @@ file_export_version=3.0
 # Suggest static imports
 /instance/org.eclipse.jdt.ui/content_assist_favorite_static_members=org.apache.commons.lang3.StringUtils.*;org.apache.commons.lang3.math.NumberUtils.*;org.junit.Assert.*;org.mockito.Mockito.*;org.mockito.BDDMockito.*;org.hamcrest.CoreMatchers.*;java.util.stream.Collectors.*;org.apache.commons.lang3.ObjectUtils.*
 
+# Don't insert the @author tag in class javadoc
+/instance/org.eclipse.jdt.ui/org.eclipse.jdt.ui.text.custom_code_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates><template autoinsert\="false" context\="typecomment_context" deleted\="false" description\="Comment for created types" enabled\="true" id\="org.eclipse.jdt.ui.text.codetemplates.typecomment" name\="typecomment">/**\r\n * ${tags}\r\n */</template></templates>
+
 # Don't jump to the console or server tab automatically
 /instance/org.eclipse.debug.ui/DEBUG.consoleOpenOnErr=false
 /instance/org.eclipse.debug.ui/DEBUG.consoleOpenOnOut=false
