@@ -6,6 +6,9 @@ file_export_version=3.0
 # Don't limit console output
 /instance/org.eclipse.debug.ui/Console.limitConsoleOutput=false
 
+# Suggest static imports
+/instance/org.eclipse.jdt.ui/content_assist_favorite_static_members=org.apache.commons.lang3.StringUtils.*;org.apache.commons.lang3.math.NumberUtils.*;org.junit.Assert.*;org.mockito.Mockito.*;org.mockito.BDDMockito.*;org.hamcrest.CoreMatchers.*;java.util.stream.Collectors.*;org.apache.commons.lang3.ObjectUtils.*
+
 # Don't jump to the console or server tab automatically
 /instance/org.eclipse.debug.ui/DEBUG.consoleOpenOnErr=false
 /instance/org.eclipse.debug.ui/DEBUG.consoleOpenOnOut=false
