@@ -6,6 +6,10 @@ file_export_version=3.0
 # Don't limit console output
 /instance/org.eclipse.debug.ui/Console.limitConsoleOutput=false
 
+# Don't show the dashboard or tips on startup
+/instance/org.springsource.ide.eclipse.dashboard.ui/org.springsource.ide.eclipse.dashboard.uidashboard.startup=false
+/instance/org.springsource.ide.eclipse.commons.ui/show.tip=false
+
 # Suggest static imports
 /instance/org.eclipse.jdt.ui/content_assist_favorite_static_members=org.apache.commons.lang3.StringUtils.*;org.apache.commons.lang3.math.NumberUtils.*;org.junit.Assert.*;org.mockito.Mockito.*;org.mockito.BDDMockito.*;org.hamcrest.CoreMatchers.*;java.util.stream.Collectors.*;org.apache.commons.lang3.ObjectUtils.*
 
@@ -14,19 +18,11 @@ file_export_version=3.0
 /instance/org.eclipse.debug.ui/DEBUG.consoleOpenOnOut=false
 /instance/org.eclipse.wst.server.ui/show-on-activity=false
 
-# Don't show the dashboard or tips on startup
-/instance/org.springsource.ide.eclipse.dashboard.ui/org.springsource.ide.eclipse.dashboard.uidashboard.startup=false
-/instance/org.springsource.ide.eclipse.commons.ui/show.tip=false
-
 # Don't prompt to confirm exit
 /instance/org.eclipse.ui.ide/EXIT_PROMPT_ON_CLOSE_LAST_WINDOW=false
 
 # Switch to debug view without prompting
 /instance/org.eclipse.debug.ui/org.eclipse.debug.ui.switch_perspective_on_suspend=always
-
-# Use a better font
-/instance/org.eclipse.jdt.ui/org.eclipse.jface.textfont=1|Source Code Pro|9.75|0|WINDOWS|1|-13|0|0|0|400|0|0|0|0|10|2|1|49|Source Code Pro;
-/instance/org.eclipse.ui.workbench/org.eclipse.jface.textfont=1|Source Code Pro|9.75|0|WINDOWS|1|-13|0|0|0|400|0|0|0|0|10|2|1|49|Source Code Pro;
 
 # Save actions
 /instance/org.eclipse.jdt.ui/editor_save_participant_org.eclipse.jdt.ui.postsavelistener.cleanup=true
@@ -43,6 +39,10 @@ file_export_version=3.0
 
 # Format XML to 160 characters
 /instance/org.eclipse.wst.xml.core/lineWidth=160
+
+# Use a better font
+/instance/org.eclipse.jdt.ui/org.eclipse.jface.textfont=1|Source Code Pro|9.75|0|WINDOWS|1|-13|0|0|0|400|0|0|0|0|10|2|1|49|Source Code Pro;
+/instance/org.eclipse.ui.workbench/org.eclipse.jface.textfont=1|Source Code Pro|9.75|0|WINDOWS|1|-13|0|0|0|400|0|0|0|0|10|2|1|49|Source Code Pro;
 
 # Use my custom cleanup/formatting profiles
 /instance/org.eclipse.jdt.ui/cleanup_profile=_custom
